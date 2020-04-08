@@ -2,6 +2,21 @@
 Connecting to MySQL with PDO. it easy for you and secure for your company project
 
 ### Installation
+You have to edit "connect_me.php"
+Path: "app/config/connect_me.php"
+```sh
+/*** MYSQL HOSTNAME ***/
+protected $db_host = "localhost"; // Put your Host name here...
+
+/*** MYSQL DATABANSE NAME  ***/
+protected $db_name = "test"; // Put your Database name here...
+
+/*** MYSQL USERNAME ***/
+protected $db_user = "irfanahmed";  // Put your MYSQL Username here
+
+/*** MYSQL PASSWORD ***/
+protected $db_pass = "***mikmikmik***";  // Put Your MYSQL Password here
+```
 
 require or include in your project page, where you need to connect your database.r.
 
