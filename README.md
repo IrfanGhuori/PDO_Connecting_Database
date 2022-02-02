@@ -24,7 +24,7 @@ require or include in your project page, where you need to connect your database
 define('ACCESS_ALLOW',true);
 require('app/config/connect_me.php');
 ```
-You can change define the text "ACCESS_ALLOW" as you what.
+You can change define the text "ACCESS ALLOW" as you want.
 if you what to change the text. Search file path: "app/config/connect_me.php"
 in this file, you can change "defined('ACCESS_ALLOW')"
 ```sh
@@ -37,7 +37,7 @@ you'll use with changes:
 define('something',true);
 require('app/config/connect_me.php');
 ```
-it just include and requires security. direct access still blocked
+it just block direct access file
 
 ### How to use it
 
